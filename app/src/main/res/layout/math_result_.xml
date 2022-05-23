@@ -31,7 +31,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="180dp"
-            android:background="@color/red"
+            android:background="@color/yellow"
             android:text="@string/check" />
 
     </LinearLayout>
