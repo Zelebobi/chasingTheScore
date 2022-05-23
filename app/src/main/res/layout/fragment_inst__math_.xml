@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Inst_Math_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="200dp"
+            android:text="@string/mathinst"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_marginTop="550dp">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@color/red"
+            android:text="@string/understand"
+            android:layout_gravity="center"
+            android:id="@+id/understand"/>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

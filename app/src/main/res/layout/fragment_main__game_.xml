@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Game_Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container2"
+        android:background="@drawable/kosmos"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnmath"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="@string/math"
+            android:textSize="20dp"
+            android:background="@color/yellow"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="240dp"/>
+        <Button
+            android:id="@+id/btnatten"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="@string/attention"
+            android:textSize="20dp"
+            android:background="@color/yellow"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+
+        <Button
+            android:id="@+id/btnBack1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="135dp"
+            android:background="@color/ping"
+            android:text="@string/back"
+            android:textSize="20dp" />
+    </LinearLayout>
+</FrameLayout>

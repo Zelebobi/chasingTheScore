@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level_Fragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/kosmos">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easy_level"
+            android:id="@+id/easy"
+            android:textSize="25dp"
+            android:layout_marginTop="200dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow">
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/middle_level"
+            android:id="@+id/middle"
+            android:textSize="25dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow">
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hard"
+            android:text="@string/hard_level"
+            android:textSize="25dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_marginTop="125dp"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:background="@color/ping"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="Назад" />
+    </LinearLayout>
+
+</FrameLayout>

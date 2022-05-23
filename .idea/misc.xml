@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/attention.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/fragment_level_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/fragment_main_.xml" value="0.33" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/fragment_main__game_.xml" value="0.3574074074074074" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/fragment_mainmain_.xml" value="0.3574074074074074" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/level_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/main_game.xml" value="0.2946058091286307" />
+        <entry key="..\:/Users/Myitschool/Desktop/chasingthescore/app/src/main/res/layout/math.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasing_the_score-master/app/src/main/res/layout/fragment_fail_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasing_the_score-master/app/src/main/res/layout/fragment_main_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasing_the_score-master/app/src/main/res/layout/fragment_math_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasing_the_score-master/app/src/main/res/layout/fragment_win_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/attention.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/attention_result.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/dostatoch.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/easy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_attention_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_fail_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_inst__attention_.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_inst__math_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_instrukciya_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_level_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_main_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_main__game_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_math_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_picture_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_result_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_result_attention.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_rules_.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/fragment_win_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/hard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/level_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/main_game.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/main_level.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/math.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/math_result_.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/process.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/layout/result_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/User/Desktop/chasingthescore/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

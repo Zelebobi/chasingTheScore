@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">chasing the score</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">Играть</string>
+    <string name="math">Математика</string>
+    <string name="attention">Внимание</string>
+    <string name="input_result">Введите результат</string>
+    <string name="check">Проверить</string>
+    <string name="result">Результат</string>
+    <string name="fail">Ошибка</string>
+    <string name="easy_level">Лёгкий уровень</string>
+    <string name="middle_level">Средний уровень</string>
+    <string name="hard_level">Сложный уровень</string>
+    <string name="back">Назад</string>
+    <string name="nice">Молодец</string>
+    <string name="level">Уровни</string>
+    <string name="ingame">Игры</string>
+    <string name="ready">Готов</string>
+    <string name="rules">Правила</string>
+    <string name="mathinst">Посчитайте сумму или разность появляющихся чисел</string>
+    <string name="attentionEasy">Запоминайте фигуры, всплывающие на экране</string>
+    <string name="attentionHard">Внимательно следите за изменением фигур и фона экрана</string>
+    <string name="attentionMiddle">Запоминайте фигуры, всплывающие на экране с большей скоростью</string>
+    <string name="understand">Понятно</string>
+    <string name="comeback">Вернуться</string>
+</resources>
