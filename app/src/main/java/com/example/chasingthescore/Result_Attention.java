@@ -1,5 +1,6 @@
 package com.example.chasingthescore;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -20,7 +21,7 @@ public class Result_Attention extends Fragment {
     private Button attentionbtn;
     private TextView attentionText;
     private String question[] = {"Сколько кругов?","Сколько ромбов?","Сколько квадратов?","Сколько Шестиугольников?","Сколько треугольников?","Сколько раз фон был белым?","Сколько раз фон был чёрным?","Сколько раз фон был зелёным?","Сколько раз фон был жёлтым?"};
-
+    public MediaPlayer winSound,loseSound;
     private LinearLayout attentionLinear;
     private int numberQuestion;
 
@@ -39,6 +40,10 @@ public class Result_Attention extends Fragment {
         attentionEdit = view.findViewById(R.id.attentionEdit);
         attentionbtn = view.findViewById(R.id.attentionBtn);
         attentionText = view.findViewById(R.id.attentionText);
+        winSound = MediaPlayer.create(getContext(),R.raw.zvukpobedy);
+        loseSound = MediaPlayer.create(getContext(),R.raw.zvuklose);
+        SoundPlay player1 = new SoundPlay();
+
 
         int resultcir = getArguments().getInt("resultcir",0);
         int resultrom = getArguments().getInt("resultrom",0);
@@ -67,73 +72,91 @@ public class Result_Attention extends Fragment {
                         case 0:
                             if(resultcir==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 1:
                             if(resultrom==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 2:
                             if(resultsqr==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 3:
                             if(resultshs==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 4:
                             if(resulttre==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 5:
                             if(resultwhite==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 6:
                             if(resultblack==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 7:
                             if(resultgreen==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                         case 8:
                             if(resultyellow==polresult){
                                 winFragment();
+                                player1.soundPlay(winSound);
                             }
                             else{
                                 loseFragment();
+                                player1.soundPlay(loseSound);
                             }
                             break;
                     }

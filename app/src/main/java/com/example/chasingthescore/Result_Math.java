@@ -1,5 +1,6 @@
 package com.example.chasingthescore;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -18,6 +19,7 @@ public class Result_Math extends Fragment {
     private EditText mathEdit;
     private Button mathBtn;
     private LinearLayout mathLinear;
+    public MediaPlayer winSound,loseSound;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,9 @@ public class Result_Math extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.math_result_, container, false);
-
+        SoundPlay player = new SoundPlay();
+        winSound = MediaPlayer.create(getContext(),R.raw.zvukpobedy);
+        loseSound = MediaPlayer.create(getContext(),R.raw.zvuklose);
         mathEdit = view.findViewById(R.id.mathEdit);
         mathLinear = view.findViewById(R.id.mathLinear);
         mathBtn = view.findViewById(R.id.mathBtn);
@@ -50,12 +54,14 @@ public class Result_Math extends Fragment {
                         FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                         ft.replace(R.id.container,f);
                         ft.commit();
+                        player.soundPlay(winSound);
                     }
                     else{
                         Fragment f1 = new Fail_Fragment();
                         FragmentTransaction ft1 = getActivity().getSupportFragmentManager().beginTransaction();
                         ft1.replace(R.id.container,f1);
                         ft1.commit();
+                        player.soundPlay(loseSound);
                     }
                 }
                 else{
@@ -63,6 +69,8 @@ public class Result_Math extends Fragment {
                 }
             }
         });
+
+
 
         return view;
     }
